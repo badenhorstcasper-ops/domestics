@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Domestic worker contract, made for your home | DomestiCare from R150</title>
+<meta name="description" content="Answer simple questions and download a legal employment contract for your domestic worker, nanny, gardener, au pair, cook, caregiver or driver. Up to date for 2026. From R150, once-off.">
+<meta name="theme-color" content="#0e2f4e">
+<meta property="og:title" content="DomestiCare Tailor-made Contracts | from R150">
+<meta property="og:description" content="A proper employment contract for your domestic worker, made for your home in about 10 minutes. Up to date for 2026.">
+<meta property="og:image" content="https://domestics.inreco.co.za/logo-full.webp">
+<link rel="icon" href="logo-shield.webp" type="image/webp">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">WhatsApp <a href="https://wa.me/27844027029" target="_blank" rel="noopener">084 402 7029</a> · messages only, no calls</div>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <img class="hero-logo" src="logo-full.webp" width="300" height="400" alt="DomestiCare Tailor-made Contracts, a subsidiary of DomestiSure">
+    <div class="hero-text">
+      <span class="pill">Up to date for 2026</span>
+      <h1>A proper contract for your domestic worker</h1>
+      <p class="sub">Answer simple questions. Pay once. Download a contract made for your home, ready to print and sign.</p>
+      <ul class="ticks">
+        <li>Cleaners, gardeners, nannies, au pairs, cooks, caregivers and drivers</li>
+        <li>Live-in or live-out, full-time or part-time</li>
+        <li>Checks the minimum wage for you (R30.23 an hour)</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-green" href="#build">Make my contract</a>
+        <a class="btn btn-ghost" href="#prices">Prices from R150</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="payReturn" hidden>
+  <div class="wrap"><div class="card card-lock">
+    <h2 id="payReturnTitle">Thank you</h2>
+    <p id="payReturnText"></p>
+    <div id="payReturnActions"></div>
+  </div></div>
+</section>
+
+<section>
+  <div class="wrap">
+    <ol class="how">
+      <li><span class="n">1</span><div><h3>Answer the questions</h3><p>About 10 minutes. Nothing is sent anywhere while you type.</p></div></li>
+      <li><span class="n">2</span><div><h3>Pay with PayFast</h3><p>Card, Instant EFT and more. Safe and quick.</p></div></li>
+      <li><span class="n">3</span><div><h3>Download and sign</h3><p>Your PDF is made on your phone or computer. Print it, sign it, give your worker a copy.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="card">
+      <h2>Why you need it</h2>
+      <p>The law says every employer, also a household, must give a domestic worker their job details in writing. A clear contract stops arguments about hours, pay, leave and rules before they start, and protects you both at the CCMA.</p>
+      <h3>Our contract already includes the 2026 rules</h3>
+      <ul class="ticks dark">
+        <li>Minimum wage R30.23 an hour, checked live while you type</li>
+        <li>5 days family responsibility leave (domestic workers get 5, not 3)</li>
+        <li>New shared parental leave of 4 months and 10 days</li>
+        <li>COIDA: registering with the Compensation Fund for injuries at work</li>
+        <li>Correct meal breaks, overtime limits, Sunday pay and standby for nannies</li>
+        <li>Only legal deductions: no money taken off for breakages</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <h2>Prices <span class="muted small">once-off, no subscription</span></h2>
+    <div class="prices">
+      <div class="price-card"><div class="pc-top"><h3>Employment contract</h3><div class="amt">R150</div></div><p>Made for your home: job, duties, hours, pay, leave, notice, live-in rules, signatures.</p></div>
+      <div class="price-card"><div class="pc-top"><h3>+ Duties checklist</h3><div class="amt">+R30</div></div><p>All 47 household duties with tick boxes. Your choices are already ticked. Space for extra duties and initials.</p></div>
+      <div class="price-card"><div class="pc-top"><h3>+ Code of Conduct &amp; Disciplinary Code</h3><div class="amt">+R30</div></div><p>House rules, fair steps, offences and sanctions, warning periods, complaints, a signed acknowledgement and a blank warning form.</p></div>
+      <div class="price-card best"><span class="tag">Best value</span><div class="pc-top"><h3>All three</h3><div class="amt">R199</div></div><p>Contract + Duties checklist + Code of Conduct. Save R11.</p></div>
+    </div>
+  </div>
+</section>
+
+<form id="dcForm" novalidate autocomplete="on">
+<section id="build">
+  <div class="wrap">
+    <h2>Make your contract</h2>
+    <p class="lead">Fields with <span class="req">*</span> are needed. Your answers stay on this device until you download.</p>
+
+    <!-- STEP 1 -->
+    <div class="card step" id="step1">
+      <div class="step-head"><span class="sn">1</span><h3>You and your worker</h3></div>
+      <h4>You (the employer)</h4>
+      <div class="grid two">
+        <div class="field"><label for="employerName">Your full name <span class="req">*</span></label><input id="employerName" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="employerId">Your ID number</label><input id="employerId" type="text" inputmode="numeric"></div>
+        <div class="field span2"><label for="employerAddress">Address of the home where the work is done <span class="req">*</span></label><input id="employerAddress" type="text" autocomplete="street-address" required></div>
+        <div class="field"><label for="employerPhone">Your phone <span class="req">*</span></label><input id="employerPhone" type="tel" inputmode="tel" autocomplete="tel" required></div>
+        <div class="field"><label for="employerEmail">Your email</label><input id="employerEmail" type="email" autocomplete="email"></div>
+      </div>
+      <h4>Your worker (the employee)</h4>
+      <div class="grid two">
+        <div class="field"><label for="workerName">Worker's full name <span class="req">*</span></label><input id="workerName" type="text" required autocomplete="off"></div>
+        <div class="field"><label for="workerId">ID or passport number</label><input id="workerId" type="text" autocomplete="off"></div>
+        <div class="field"><label for="workerDob">Date of birth <span class="req">*</span></label><input id="workerDob" type="date" required></div>
+        <div class="field"><label for="workerPhone">Worker's phone</label><input id="workerPhone" type="tel" inputmode="tel" autocomplete="off"></div>
+        <div class="field span2"><label for="workerAddress">Worker's home address <span class="hint">Leave empty if they live in.</span></label><input id="workerAddress" type="text" autocomplete="off"></div>
+        <div class="field"><label for="nokName">Emergency contact name</label><input id="nokName" type="text" autocomplete="off"></div>
+        <div class="field"><label for="nokPhone">Emergency contact number</label><input id="nokPhone" type="tel" autocomplete="off"></div>
+      </div>
+      <div id="ageMsg" class="msg" hidden></div>
+      <label class="check"><input type="checkbox" id="foreign"> The worker is not a South African citizen or permanent resident</label>
+      <div class="grid two" id="foreignBox" hidden>
+        <div class="field"><label for="permitNo">Work permit or visa number</label><input id="permitNo" type="text" autocomplete="off"></div>
+        <div class="field"><label for="permitExpiry">Permit expiry date</label><input id="permitExpiry" type="date"></div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="card step" id="step2">
+      <div class="step-head"><span class="sn">2</span><h3>The job</h3></div>
+      <p class="qlabel">What work will they mainly do? <span class="req">*</span></p>
+      <div class="chips" id="roleChips" role="radiogroup" aria-label="Main job"></div>
+      <div class="grid two">
+        <div class="field"><label for="jobTitle">Job title on the contract</label><input id="jobTitle" type="text"></div>
+        <div class="field"><label for="startDate">Start date <span class="req">*</span></label><input id="startDate" type="date" required></div>
+        <div class="field" id="licenceBox" hidden><label for="licenceCode">Driving licence code <span class="hint">e.g. Code B or EB</span></label><input id="licenceCode" type="text"></div>
+        <div class="field"><label for="probation">Probation (trial) period</label>
+          <select id="probation"><option value="0">None</option><option value="1">1 month</option><option value="2">2 months</option><option value="3" selected>3 months</option></select></div>
+        <div class="field"><label for="reportsTo">Who gives instructions? <span class="hint">e.g. Mrs Dlamini</span></label><input id="reportsTo" type="text"></div>
+      </div>
+      <p class="qlabel">Type of contract</p>
+      <div class="seg"><label><input type="radio" name="contractType" value="permanent" checked> Permanent</label><label><input type="radio" name="contractType" value="fixed"> Fixed term (ends on a date)</label></div>
+      <div class="grid two" id="fixedBox" hidden>
+        <div class="field"><label for="endDate">End date <span class="req">*</span></label><input id="endDate" type="date"></div>
+        <div class="field"><label for="fixedReason">Why only until then? <span class="hint">e.g. while the baby is small</span></label><input id="fixedReason" type="text"></div>
+      </div>
+      <p class="qlabel" style="margin-top:14px">Duties <span class="hint">We ticked the usual ones for this job. Change them as you like.</span></p>
+      <div id="dutyGroups"></div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="card step" id="step3">
+      <div class="step-head"><span class="sn">3</span><h3>Working hours</h3></div>
+      <p class="qlabel">Working days <span class="req">*</span></p>
+      <div class="days" id="workDays"></div>
+      <div class="grid three">
+        <div class="field"><label for="startTime">Start time</label><input id="startTime" type="time" value="08:00"></div>
+        <div class="field"><label for="endTime">Finish time</label><input id="endTime" type="time" value="17:00"></div>
+        <div class="field"><label for="breakMins">Meal break</label>
+          <select id="breakMins"><option value="60" selected>1 hour (the law)</option><option value="30">30 minutes (we both agree in writing)</option><option value="0">None (works less than 6 hours a day)</option></select></div>
+      </div>
+      <div class="calc" id="hoursCalc" aria-live="polite"></div>
+      <div class="grid two">
+        <div class="field"><label for="overtime">Overtime</label>
+          <select id="overtime"><option value="no">Not expected</option><option value="yes">Sometimes, by agreement</option></select></div>
+        <div class="field"><label class="check" style="margin-top:28px"><input type="checkbox" id="nightWork"> Works after 18:00 sometimes</label></div>
+      </div>
+      <div id="standbyWrap" hidden>
+        <label class="check"><input type="checkbox" id="standby"> Standby at night (20:00 to 06:00), e.g. listening for children</label>
+        <div class="grid two" id="standbyBox" hidden>
+          <div class="field"><label for="standbyAmt">Standby allowance per shift (R) <span class="hint">At least R20. Max 5 shifts a month.</span></label><input id="standbyAmt" type="number" min="20" step="1" value="30" inputmode="decimal"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="card step" id="step4">
+      <div class="step-head"><span class="sn">4</span><h3>Pay and benefits</h3></div>
+      <div class="grid two">
+        <div class="field"><label for="payFreq">Paid every</label><select id="payFreq"><option value="monthly">Month</option><option value="weekly">Week</option></select></div>
+        <div class="field"><label for="wage">Wage before UIF (R) <span class="req">*</span></label><input id="wage" type="number" min="0" step="0.01" inputmode="decimal" required></div>
+      </div>
+      <div class="nmw" id="nmwBox" aria-live="polite"></div>
+      <div class="grid two">
+        <div class="field"><label for="payMethod">How you pay</label><select id="payMethod"><option value="eft">Into their bank account (EFT)</option><option value="cash">Cash, with a signed receipt</option></select></div>
+        <div class="field"><label for="payDay">Pay day</label><input id="payDay" type="text" value="Last working day of the month"></div>
+        <div class="field span2" id="bankBox"><label for="bankText">Bank, account number and branch <span class="hint">Optional. You can also write it in by hand.</span></label><input id="bankText" type="text" autocomplete="off"></div>
+        <div class="field"><label for="reviewDate">Yearly pay review</label><input id="reviewDate" type="text" value="Every March, when the minimum wage changes"></div>
+        <div class="field"><label for="notice">Longer notice than the law? <span class="hint">Optional</span></label><select id="notice"><option value="0">No, the law's minimum</option><option value="4">4 weeks</option><option value="6">6 weeks</option><option value="8">8 weeks</option></select></div>
+      </div>
+      <p class="qlabel">Benefits</p>
+      <label class="check"><input type="checkbox" id="meals" checked> Free meals or food at work</label>
+      <label class="check"><input type="checkbox" id="uniform"> Free uniform or work clothes</label>
+      <div class="grid three">
+        <div class="field"><label for="transportAmt">Transport money (R) <span class="hint">0 if none</span></label><input id="transportAmt" type="number" min="0" step="1" value="0" inputmode="decimal"></div>
+        <div class="field"><label for="transportPer">per</label><select id="transportPer"><option value="day">working day</option><option value="week">week</option><option value="month">month</option></select></div>
+        <div class="field"><label for="medicalAmt">Medical aid help (R a month)</label><input id="medicalAmt" type="number" min="0" step="1" value="0" inputmode="decimal"></div>
+      </div>
+      <div class="grid two">
+        <div class="field"><label for="bonus">Bonus</label><select id="bonus"><option value="none">No bonus</option><option value="13th">13th cheque in December (1 month's wage)</option><option value="discretion">A bonus at the employer's choice (not guaranteed)</option></select></div>
+        <div class="field"><label for="otherBenefits">Other benefits <span class="hint">e.g. airtime, school fees help</span></label><input id="otherBenefits" type="text"></div>
+      </div>
+    </div>
+
+    <!-- STEP 5 -->
+    <div class="card step" id="step5">
+      <div class="step-head"><span class="sn">5</span><h3>Living in</h3></div>
+      <div class="seg"><label><input type="radio" name="liveIn" value="no" checked> Lives out (goes home every day)</label><label><input type="radio" name="liveIn" value="yes"> Lives in at your home</label></div>
+      <div id="liveBox" hidden>
+        <div class="grid two">
+          <div class="field span2"><label for="accomDescription">The room or flat <span class="hint">e.g. Outside room with own bathroom</span></label><input id="accomDescription" type="text"></div>
+        </div>
+        <p class="qlabel">What does it have?</p>
+        <div class="chips small" id="amenities"></div>
+        <div class="grid two">
+          <div class="field"><label for="accomDeduction">Deduct for the room (R per pay)? <span class="hint">0 if free. Max 10% of the wage.</span></label><input id="accomDeduction" type="number" min="0" step="0.01" value="0" inputmode="decimal"></div>
+          <div class="field"><label for="vacateDays">Days to move out after notice <span class="hint">At least 30</span></label><input id="vacateDays" type="number" min="30" step="1" value="30"></div>
+          <div class="field"><label for="offFrom">Off duty from</label><input id="offFrom" type="time" value="17:00"></div>
+          <div class="field"><label for="offTo">to</label><input id="offTo" type="time" value="08:00"></div>
+          <div class="field"><label for="visitors">Visitors</label><select id="visitors"><option value="day">Day visitors with permission; no overnight guests without written permission</option><option value="ask">Visitors only with permission each time</option><option value="free">Visitors welcome in off-duty time; overnight guests with permission</option></select></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 6 -->
+    <div class="card step" id="step6">
+      <div class="step-head"><span class="sn">6</span><h3>Choose your documents and pay</h3></div>
+      <div class="choose">
+        <label class="opt fixed"><input type="checkbox" checked disabled> <span><b>Employment contract</b><br><small>Made for your home</small></span><b class="p">R150</b></label>
+        <label class="opt"><input type="checkbox" id="addDuties"> <span><b>Duties &amp; Responsibilities checklist</b><br><small>All 47 duties, tick boxes, initials</small></span><b class="p">+R30</b></label>
+        <label class="opt"><input type="checkbox" id="addCode"> <span><b>Code of Conduct &amp; Disciplinary Code</b><br><small>Rules, offences, sanctions, warning form</small></span><b class="p">+R30</b></label>
+      </div>
+      <p class="nudge" id="nudge">Add both and pay <b>R199</b> for all three (save R11).</p>
+      <div class="total"><span>Total</span><b id="total">R150</b></div>
+      <label class="check"><input type="checkbox" id="popia"> I agree that my answers are used only to make these documents. They stay on this device. Only my name, email and order number go to PayFast for the payment. <span class="req">*</span></label>
+      <label class="check"><input type="checkbox" id="terms"> I understand this is a template based on South African labour law, not legal advice for a dispute, and that I must explain it to my worker before we both sign. <span class="req">*</span></label>
+      <div class="errors" id="errors" hidden></div>
+      <button type="button" class="btn btn-green btn-block" id="payBtn">Pay R150 with PayFast</button>
+      <p class="small center">PayFast opens in a new tab. When PayFast confirms your payment, your download buttons appear on this page. Your order number: <b id="refShow"></b></p>
+      <p class="small center">Can't pay by card or EFT? WhatsApp <a href="https://wa.me/27844027029" target="_blank" rel="noopener">084 402 7029</a> for eWallet or CashSend.</p>
+    </div>
+
+    <div class="card upsell">
+      <img src="logo-shield.webp" width="72" height="72" alt="" loading="lazy">
+      <div>
+        <h3>Want help every month too?</h3>
+        <p>The <b>DomestiSure app</b> does payslips, UIF forms, leave records and warning letters for you. <b>R79 a month</b>, cancel any time.</p>
+        <a class="btn btn-outline" href="https://app.domestisure.inreco.co.za" target="_blank" rel="noopener">See the DomestiSure app</a>
+      </div>
+    </div>
+  </div>
+</section>
+</form>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Questions</h2>
+    <details><summary>Is this contract legal?</summary><p>Yes. It follows the Basic Conditions of Employment Act, Sectoral Determination 7 for domestic workers, the National Minimum Wage, COIDA and POPIA, as they stand in November 2026. It never gives your worker less than the law. If the law changes later, the law wins.</p></details>
+    <details><summary>Who does it work for?</summary><p>Anyone employed in a private home: cleaners, housekeepers, gardeners, nannies, au pairs, cooks and chefs, caregivers for the elderly or sick, and household drivers. Live-in or live-out, full-time or part-time.</p></details>
+    <details><summary>Where do my answers go?</summary><p>Nowhere. Your answers stay on your phone or computer. After you pay, our payment server sends the document layout to your device, and your device puts your answers in and makes the PDF. iNRECO never sees your worker's details.</p></details>
+    <details><summary>What if my worker earns less than the minimum wage?</summary><p>The page will not let you continue. The National Minimum Wage is R30.23 an hour from 1 March 2026. It changes every year, usually on 1 March.</p></details>
+    <details><summary>Can my worker be younger than 18?</summary><p>Nobody younger than 15 may be employed, so the page blocks that. Workers aged 15 to 17 may not do risky work, and the contract adds the extra rules for them.</p></details>
+    <details><summary>Do I have to register for UIF and COIDA?</summary><p>Yes. If your worker works more than 24 hours a month you must register for UIF and pay 1% plus 1% every month. Household employers must also register with the Compensation Fund (COIDA) so that injuries at work are covered. The contract explains both.</p></details>
+    <details><summary>Can I take money off for things that break?</summary><p>No. The law for domestic workers does not allow deductions for breakages, loss or damage. Only UIF, tax, unpaid absence, up to 10% for a proper room, and agreed loan repayments (max 10%) or fund payments. The Code of Conduct shows the fair way to deal with carelessness.</p></details>
+    <details><summary>I paid but the download did not appear</summary><p>Keep the page open for a minute while PayFast confirms. If you closed it, open this page again on the same device and it will check again. Still stuck? WhatsApp us with your order number (it starts with DOM-).</p></details>
+    <details><summary>Can I change it after I download?</summary><p>You can download again on the same device, and fix spelling or details in the form first. Big changes after signing must be written down and signed by both of you.</p></details>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="disclaimer">
+      <b>Please note.</b> DomestiCare documents are templates that follow South African labour law as at November 2026. They are made from your answers and are not legal advice for a specific dispute. You are responsible for checking your answers, explaining the documents to your worker in a language they understand, and following them. If your situation is unusual, get advice. Prices include all fees. Payments are processed by PayFast.
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="sticky" id="sticky">
+  <div><div class="lbl">Your documents</div><div class="val" id="stickyTotal">R150</div></div>
+  <a class="btn btn-green" href="#step6" id="stickyBtn">Pay</a>
+</div>
+
+<footer>
+  <div class="wrap">
+    <img src="logo-shield.webp" width="56" height="56" alt="DomestiCare" class="flogo" loading="lazy">
+    <p class="motto">DomestiCare Tailor-made Contracts</p>
+    <p>by iNRECO · a subsidiary of DomestiSure</p>
+    <p>WhatsApp <a href="https://wa.me/27844027029" target="_blank" rel="noopener">084 402 7029</a> (messages only, no calls) · Email <a href="mailto:info@inreco.co.za">info@inreco.co.za</a></p>
+    <p class="site-nav"><a href="https://app.domestisure.inreco.co.za" target="_blank" rel="noopener">DomestiSure app</a> <a href="https://ccmaprep.inreco.co.za/" target="_blank" rel="noopener">iNRECO workplace help</a></p>
+    <p class="small">© <span id="yr">2026</span> iNRECO</p>
+  </div>
+</footer>
+
+<script src="jspdf.umd.min.js" defer></script>
+<script src="jspdf.plugin.autotable.min.js" defer></script>
+<script src="data.js" defer></script>
+<script src="docs.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
